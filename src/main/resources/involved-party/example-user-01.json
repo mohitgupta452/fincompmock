@@ -1,0 +1,9 @@
+{
+  "userId": "u-1001",
+  "parties": [
+    {
+      "role": "PRIMARY",
+      "name": "John Doe"
+    }
+  ]
+}
