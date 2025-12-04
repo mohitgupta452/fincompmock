@@ -1,0 +1,7 @@
+{
+  "userId": "1001",
+  "name": "John Doe",
+  "accounts": [
+    { "accId": "A-100", "type": "SAVINGS", "balance": 1000 }
+  ]
+}

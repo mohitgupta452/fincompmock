@@ -1,0 +1,4 @@
+[
+  { "accId": "A-100", "type": "SAVINGS", "balance": 1000 },
+  { "accId": "A-200", "type": "CURRENT", "balance": 5000 }
+]
