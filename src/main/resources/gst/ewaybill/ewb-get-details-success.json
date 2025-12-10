@@ -1,0 +1,9 @@
+{
+  "ewbNo": 111122223333,
+  "ewbDt": "2025-12-10T14:00:00Z",
+  "validUpto": "2025-12-15T23:59:59Z",
+  "fromGstin": "27AAPFU0939F1ZV",
+  "toGstin": "27ABCDE1234F1Z2",
+  "totalValue": 150000.00,
+  "status": "ACTIVE"
+}

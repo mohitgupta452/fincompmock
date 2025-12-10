@@ -1,0 +1,8 @@
+{
+  "irn": "IRN_SAMPLE",
+  "ackNo": "ACK-EINV-9876543210",
+  "ackDt": "2025-12-10T12:45:00Z",
+  "signedInvoice": "BASE64_ENCODED_SIGNED_INVOICE_SAMPLE",
+  "status": "SUCCESS",
+  "message": "IRN generated successfully in sandbox."
+}

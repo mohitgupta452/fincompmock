@@ -1,0 +1,19 @@
+{
+  "gstin": "27AAPFU0939F1ZV",
+  "entries": [
+    {
+      "desc": "GST payment through net banking",
+      "date": "2025-04-20",
+      "debit": 0.00,
+      "credit": 50000.00,
+      "balance": 50000.00
+    },
+    {
+      "desc": "Utilisation of cash ledger for tax payment",
+      "date": "2025-04-25",
+      "debit": 30000.00,
+      "credit": 0.00,
+      "balance": 20000.00
+    }
+  ]
+}

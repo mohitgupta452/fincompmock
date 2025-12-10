@@ -1,0 +1,10 @@
+{
+  "irn": "IRN_SAMPLE",
+  "gstin": "27AAPFU0939F1ZV",
+  "docType": "INV",
+  "docNo": "INV-001",
+  "docDate": "2025-04-15",
+  "buyerGstin": "27ABCDE1234F1Z2",
+  "totalValue": 150000.00,
+  "status": "ACTIVE"
+}

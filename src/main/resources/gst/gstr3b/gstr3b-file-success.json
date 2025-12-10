@@ -1,0 +1,7 @@
+{
+  "status": "SUCCESS",
+  "ackNo": "ACK1234567890",
+  "ackDt": "10-12-2025 12:30:00",
+  "reference_id": "REF-GSTR3B-001",
+  "message": "GSTR-3B return filed successfully in sandbox."
+}

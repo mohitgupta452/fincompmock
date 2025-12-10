@@ -1,11 +1,18 @@
 package com.fincompmock;
 
 import com.fincompmock.expectation.FinCompEntry;
+import com.fincompmock.expectation.gst.authentication.AuthExpectation;
+import com.fincompmock.expectation.gst.einvoice.EinvoiceExpectation;
+import com.fincompmock.expectation.gst.ewaybill.EwayBillExpectation;
 import com.fincompmock.expectation.gst.gstin.GstinVerificationExpectation;
 import com.fincompmock.expectation.gst.gstin.PanGstinMappingExpectation;
 import com.fincompmock.expectation.gst.gstin.ReturnStatusExpectation;
 import com.fincompmock.expectation.gst.gstin.TaxpayerProfileExpectation;
 import com.fincompmock.expectation.gst.gstr1.*;
+import com.fincompmock.expectation.gst.gstr2a2b.Gstr2Expectation;
+import com.fincompmock.expectation.gst.gstr3b.Gstr3bExpectation;
+import com.fincompmock.expectation.gst.otp.OtpExpectation;
+import com.fincompmock.expectation.gst.ledgers.LedgerExpectation;
 import org.mockserver.client.server.MockServerClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -48,5 +55,13 @@ public class FinCompMockApplication {
 		PanGstinMappingExpectation.register(client);
 		ReturnStatusExpectation.register(client);
 		TaxpayerProfileExpectation.register(client);
+
+		AuthExpectation.register(client);
+		Gstr3bExpectation.register(client);
+		Gstr2Expectation.register(client);
+		OtpExpectation.register(client);
+		EinvoiceExpectation.register(client);
+		EwayBillExpectation.register(client);
+		LedgerExpectation.register(client);
 	}
 }

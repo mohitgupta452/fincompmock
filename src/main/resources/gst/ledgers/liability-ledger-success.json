@@ -1,0 +1,19 @@
+{
+  "gstin": "27AAPFU0939F1ZV",
+  "entries": [
+    {
+      "desc": "Tax liability for April 2025",
+      "date": "2025-04-30",
+      "debit": 90000.00,
+      "credit": 0.00,
+      "balance": 90000.00
+    },
+    {
+      "desc": "Payment via cash/credit ledger",
+      "date": "2025-05-05",
+      "debit": 0.00,
+      "credit": 70000.00,
+      "balance": 20000.00
+    }
+  ]
+}

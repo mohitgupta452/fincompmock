@@ -1,0 +1,19 @@
+{
+  "gstin": "27AAPFU0939F1ZV",
+  "entries": [
+    {
+      "desc": "ITC from GSTR-3B filing",
+      "date": "2025-04-30",
+      "debit": 0.00,
+      "credit": 80000.00,
+      "balance": 80000.00
+    },
+    {
+      "desc": "ITC utilised for tax payment",
+      "date": "2025-05-05",
+      "debit": 40000.00,
+      "credit": 0.00,
+      "balance": 40000.00
+    }
+  ]
+}
