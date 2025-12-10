@@ -1,0 +1,45 @@
+{
+  "gstin": "27AAPFU0939F1ZV",
+  "fp": "042024",
+  "ret_period": "042024",
+  "version": "1.0",
+  "data": {
+    "b2b": [
+      {
+        "ctin": "27AAACB2230M1Z5",
+        "inv": [
+          {
+            "inum": "INV-001",
+            "idt": "10-04-2024",
+            "val": 10000.0,
+            "pos": "27",
+            "rchrg": "N",
+            "inv_typ": "R",
+            "itms": [
+              {
+                "num": 1,
+                "itm_det": {
+                  "txval": 8474.58,
+                  "rt": 18,
+                  "igst": 0,
+                  "cgst": 762.71,
+                  "sgst": 762.71
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "b2cs": [
+      {
+        "sply_ty": "INTRA",
+        "pos": "27",
+        "rt": 18,
+        "txval": 5000.0,
+        "camt": 450.0,
+        "samt": 450.0
+      }
+    ]
+  }
+}

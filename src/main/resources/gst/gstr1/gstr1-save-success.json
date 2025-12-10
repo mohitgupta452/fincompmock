@@ -1,0 +1,11 @@
+{
+  "status": "SUCCESS",
+  "message": "GSTR-1 data saved successfully",
+  "data": {
+    "ref_id": "RIDGSTR1202404ABC123",
+    "gstin": "27AAPFU0939F1ZV",
+    "fp": "042024",
+    "ret_period": "042024",
+    "error_report_available": false
+  }
+}

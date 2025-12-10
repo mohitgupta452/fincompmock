@@ -1,0 +1,22 @@
+{
+  "status": "SUCCESS",
+  "data": {
+    "gstin": "27AAPFU0939F1ZV",
+    "fp": "042024",
+    "ret_period": "042024",
+    "sup_details": {
+      "osup_det": {
+        "txval": 13500.0,
+        "iamt": 0.0,
+        "camt": 1212.71,
+        "samt": 1212.71
+      },
+      "osup_zero": {
+        "txval": 0,
+        "iamt": 0
+      }
+    },
+    "ctin_count": 5,
+    "inv_count": 15
+  }
+}

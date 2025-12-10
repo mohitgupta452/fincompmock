@@ -1,0 +1,12 @@
+{
+  "status": "SUCCESS",
+  "message": "GSTR-1 filed successfully",
+  "data": {
+    "gstin": "27AAPFU0939F1ZV",
+    "fp": "042024",
+    "ret_period": "042024",
+    "ack_no": "ACKGSTR1202404PQR567",
+    "ack_dt": "2024-04-12T14:35:12",
+    "status": "FILED"
+  }
+}

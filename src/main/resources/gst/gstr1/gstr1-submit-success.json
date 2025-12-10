@@ -1,0 +1,10 @@
+{
+  "status": "SUCCESS",
+  "message": "GSTR-1 submitted successfully",
+  "data": {
+    "gstin": "27AAPFU0939F1ZV",
+    "fp": "042024",
+    "ret_period": "042024",
+    "submit_ref_id": "SUBGSTR1202404XYZ789"
+  }
+}

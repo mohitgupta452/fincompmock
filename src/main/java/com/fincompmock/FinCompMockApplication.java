@@ -1,6 +1,8 @@
 package com.fincompmock;
 
 import com.fincompmock.expectation.FinCompEntry;
+import com.fincompmock.expectation.gst.gstr1.*;
+import org.mockserver.client.server.MockServerClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -21,6 +23,21 @@ public class FinCompMockApplication {
 		FinCompEntry finCompEntry = new FinCompEntry((hostAndPort));
 		finCompEntry.registerAll();
 
+
+		String[] parts = hostAndPort.split(":");
+		String host = parts[0];
+		int port = Integer.parseInt(parts[1]);
+
+		registerAll(new MockServerClient(host, port));
+
 		SpringApplication.run(FinCompMockApplication.class, args);
+	}
+
+	public static void registerAll(MockServerClient client) {
+		Gstr1SaveExpectation.register(client);
+		Gstr1SummaryExpectation.register(client);
+		Gstr1SubmitExpectation.register(client);
+		Gstr1FileExpectation.register(client);
+		Gstr1StatusExpectation.register(client);
 	}
 }

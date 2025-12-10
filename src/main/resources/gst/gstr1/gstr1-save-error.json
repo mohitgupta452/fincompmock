@@ -1,0 +1,13 @@
+{
+  "status": "ERROR",
+  "error_code": "RET1286",
+  "message": "Invalid GSTIN in B2B section",
+  "errors": [
+    {
+      "section": "B2B",
+      "index": 0,
+      "field": "ctin",
+      "desc": "CTIN does not exist or is inactive"
+    }
+  ]
+}
