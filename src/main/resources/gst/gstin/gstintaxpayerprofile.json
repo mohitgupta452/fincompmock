@@ -1,0 +1,31 @@
+{
+  "gstin": "27AAACB2230M1Z5",
+  "legalName": "ABC TRADERS PRIVATE LIMITED",
+  "tradeName": "ABC TRADERS",
+  "constitutionOfBusiness": "Private Limited Company",
+  "registrationDate": "2017-07-01",
+  "cancellationDate": null,
+  "status": "Active",
+  "principalPlaceOfBusiness": {
+    "address": "3rd Floor, ABC BUSINESS PARK, MG ROAD, ANDHERI EAST",
+    "city": "MUMBAI",
+    "state": "Maharashtra",
+    "pincode": "400059"
+  },
+  "additionalPlacesOfBusiness": [
+    {
+      "stateCode": "29",
+      "address": "XYZ COMPLEX, MG ROAD, BENGALURU",
+      "pincode": "560001"
+    }
+  ],
+  "natureOfBusiness": [
+    "Wholesale Business",
+    "Retail Business"
+  ],
+  "contact": {
+    "email": "info@abctraders.com",
+    "mobile": "9876543210"
+  },
+  "source": "MOCK"
+}

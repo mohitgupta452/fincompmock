@@ -1,0 +1,10 @@
+{
+  "gstin": "27AAACB2230M1Z5",
+  "period": "202501",
+  "returnType": "GSTR3B",
+  "status": "Filed",
+  "arn": "AA270125123456A",
+  "filedDate": "2025-02-18",
+  "mode": "Online",
+  "source": "MOCK"
+}

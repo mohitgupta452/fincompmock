@@ -1,6 +1,10 @@
 package com.fincompmock;
 
 import com.fincompmock.expectation.FinCompEntry;
+import com.fincompmock.expectation.gst.gstin.GstinVerificationExpectation;
+import com.fincompmock.expectation.gst.gstin.PanGstinMappingExpectation;
+import com.fincompmock.expectation.gst.gstin.ReturnStatusExpectation;
+import com.fincompmock.expectation.gst.gstin.TaxpayerProfileExpectation;
 import com.fincompmock.expectation.gst.gstr1.*;
 import org.mockserver.client.server.MockServerClient;
 import org.springframework.boot.SpringApplication;
@@ -39,5 +43,10 @@ public class FinCompMockApplication {
 		Gstr1SubmitExpectation.register(client);
 		Gstr1FileExpectation.register(client);
 		Gstr1StatusExpectation.register(client);
+
+		GstinVerificationExpectation.register(client);
+		PanGstinMappingExpectation.register(client);
+		ReturnStatusExpectation.register(client);
+		TaxpayerProfileExpectation.register(client);
 	}
 }

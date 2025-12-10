@@ -1,0 +1,7 @@
+{
+  "gstin": "27INVALIDGSTIN12",
+  "valid": false,
+  "status": "Invalid",
+  "message": "GSTIN does not exist in GST system (mock).",
+  "source": "MOCK"
+}
